@@ -2,15 +2,8 @@
 get_header();
 /* Template Name: Kontaktai */
 ?>
-<?php
-        $args = array(
-          'post_type' => 'post',
-          'posts_per_page' => 1,
-          'facetwp' => true,
-        );
-        $query = new WP_Query($args);
-        ?>
-        <?php if ($query->have_posts()) : while ($query->have_posts()) : $query->the_post(); ?>
+
+       
 <div class="section">
         <div class="about">
             <div class="content-section">
@@ -18,7 +11,7 @@ get_header();
                     <h1><?php echo get_the_title(); ?></h1>                    
                 </div>
                 <div class="content">
-                <?php echo the_content(); ?>
+                <p><?php echo the_content(); ?></p>
                 </div>
             </div>
             <div class="img-section">
@@ -26,9 +19,7 @@ get_header();
             </div>
         </div>
     </div>
-    <?php endwhile; ?>
-        <?php endif; ?>
-        <?php wp_reset_postdata(); ?>
+  
 <?php
 get_footer();
 ?>

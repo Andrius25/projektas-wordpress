@@ -378,14 +378,21 @@ a{
     display:flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    background: #8fb4cf;
 }
 .card{
-    background: #4d7fa5;
+    background: #000000;
     border-style: dotted;
     margin: 20px 20px;
     padding: 10px 10px;
     width: 270px;
     height: 400px;
+}
+.card h2{
+    color: #0e8d78;
+}
+.card p{
+    color: #0e8d78;
 }
 .card-image{
     height: 250px;
@@ -403,7 +410,7 @@ a{
     background-image: url('/baigiamasis/wp-content/themes/Projektas/assets/images/salmas1.jpg');
 }
 .sarvai1{
-    background-image: url('/baigiamasis/wp-content/themes/Projektas/assets/images/sarvai1.jpg');
+    background-image: url('/baigiamasis/wp-content/themes/Projektas/assets/images/sarvai.jpg');
 }
 .motoroleris-honda-2{
     background-image: url('/baigiamasis/wp-content/themes/Projektas/assets/images/honda-dio-2.jpg');
@@ -482,10 +489,10 @@ a{
         align-items: center;
         overflow-x: hidden;
         overflow-y: auto;
-        transform: translateX(0);
+        transform: translateX(100%);
     }
     #check:checked ~ .nav-btn{
-        transform: translateX(100%);
+        transform: translateX(0);
     }
     .nav-links{
         flex: initial;
