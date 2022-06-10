@@ -2,17 +2,23 @@
 get_header();
 /* Template Name: Kontaktai */
 ?>
+<?php
+        $args = array(
+          'post_type' => 'post',
+          'posts_per_page' => 1,
+          'facetwp' => true,
+        );
+        $query = new WP_Query($args);
+        ?>
+        <?php if ($query->have_posts()) : while ($query->have_posts()) : $query->the_post(); ?>
 <div class="section">
         <div class="about">
             <div class="content-section">
                 <div class="title">
-                    <h1>Kontaktai</h1>                    
+                    <h1><?php echo get_the_title(); ?></h1>                    
                 </div>
                 <div class="content">
-                   <p>Gatvė: Ulonų g. 5</p>
-                   <p>Tel: 865459861</p>
-                   <p>El. paštas: MotoWorld@gmail.com</p>
-                   <p>Darbo laikas: <br> I-V 8-19 <br> VI-VII 9-17</p>
+                <?php echo the_content(); ?>
                 </div>
             </div>
             <div class="img-section">
@@ -20,6 +26,9 @@ get_header();
             </div>
         </div>
     </div>
+    <?php endwhile; ?>
+        <?php endif; ?>
+        <?php wp_reset_postdata(); ?>
 <?php
 get_footer();
 ?>

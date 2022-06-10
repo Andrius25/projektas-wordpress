@@ -4,21 +4,21 @@ get_header()
 <div class="moto">
         <div class="remas">
             <div class="card-header">
-                <a href="/keturaciai-darbo.html"><img src="/assets/darbinis-ket.jpg" height="250px" ></a>
+                <a href="/baigiamasis/keturaciai-darbo"><img src="/baigiamasis/wp-content/themes/projektas/assets/images/darbinis-ket.jpg" height="250px" ></a>
                 <div class="card-body">
-                    <a href="/keturaciai-darbo.html"><h3>KUTURAČIAI DARBO</h3></a>
+                    <a href="/baigiamasis/keturaciai-darbo"><h3>KUTURAČIAI DARBO</h3></a>
                 </div>
             </div>
             <div class="card-header">
-                <a href="/keturaciai-sportiniai.html"><img src="/assets/sportinis.jpg" height="250px"></a>
+                <a href="/baigiamasis/keturaciai-sportiniai"><img src="/baigiamasis/wp-content/themes/projektas/assets/images/sportinis.jpg" height="250px"></a>
                 <div class="card-body">
-                    <a href="/keturaciai-sportiniai.html"> <h3>KETURAČIAI SPORTINIAI</h3> </a>
+                    <a href="/baigiamasis/keturaciai-sportiniai"> <h3>KETURAČIAI SPORTINIAI</h3> </a>
                 </div>
             </div>
             <div class="card-header">
-                <a href="/keturaciai-vaikiski.html"><img src="/assets/vaikiskas.jpg" height="250px"></a>
+                <a href="/baigiamasis/keturaciai-vaikiski"><img src="/baigiamasis/wp-content/themes/projektas/assets/images/vaikiskas.jpg" height="250px"></a>
                 <div class="card-body">
-                    <a href="/keturaciai-vaikiski.html"><h3>KETURAČIAI VAIKIŠKI</h3></a>
+                    <a href="/baigiamasis/keturaciai-vaikiski"><h3>KETURAČIAI VAIKIŠKI</h3></a>
                 </div>
             </div>
         </div>

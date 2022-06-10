@@ -374,7 +374,64 @@ a{
     text-decoration: none;
     color: #0e8d78;
 }
-
+.card-container{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card{
+    background: #4d7fa5;
+    border-style: dotted;
+    margin: 20px 20px;
+    padding: 10px 10px;
+    width: 270px;
+    height: 400px;
+}
+.card-image{
+    height: 250px;
+    margin-bottom: 15px;
+    background-size: cover;
+    
+}
+.batai-1{
+    background-image: url('/baigiamasis/wp-content/themes/Projektas/assets/images/moto-batai1.jpg');
+}
+.pirstines-1{
+    background-image: url('/baigiamasis/wp-content/themes/Projektas/assets/images/pirstines1.jpg');
+}
+.salmas-1{
+    background-image: url('/baigiamasis/wp-content/themes/Projektas/assets/images/salmas1.jpg');
+}
+.sarvai1{
+    background-image: url('/baigiamasis/wp-content/themes/Projektas/assets/images/sarvai1.jpg');
+}
+.motoroleris-honda-2{
+    background-image: url('/baigiamasis/wp-content/themes/Projektas/assets/images/honda-dio-2.jpg');
+}
+.motoroleris-suzuki-1{
+    background-image: url('/baigiamasis/wp-content/themes/Projektas/assets/images/suzuki1.jpg');
+}
+.motoroleris-yamaha-1{
+    background-image: url('/baigiamasis/wp-content/themes/Projektas/assets/images/yamaha1.jpg');
+}
+.motociklas-honda-1{
+    background-image: url('/baigiamasis/wp-content/themes/Projektas/assets/images/moto-honda.jpg');
+}
+.motociklas-suzuki-1{
+    background-image: url('/baigiamasis/wp-content/themes/Projektas/assets/images/suzuki-moto.jpg');
+}
+.motociklas-yamaha-1{
+    background-image: url('/baigiamasis/wp-content/themes/Projektas/assets/images/yamaha-moto.jpg');
+}
+.darbo-1{
+    background-image: url('/baigiamasis/wp-content/themes/Projektas/assets/images/darbinis-ket.jpg');
+}
+.sporto-1{
+    background-image: url('/baigiamasis/wp-content/themes/Projektas/assets/images/sportinis.jpg');
+}
+.vaikiskas-1{
+    background-image: url('/baigiamasis/wp-content/themes/Projektas/assets/images/vaikiskas.jpg');
+}
 @media (max-width:1305px) {  
     .navbar{
         flex-wrap: wrap;
